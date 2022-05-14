@@ -26,5 +26,10 @@
 
 ### chp6
 
-- feat(chp6/raw_data.txt): 增加用于测试的爬取的真实数据集，每行是一个独立的语段。
+- feat(chp6/raw_data.txt): 增加用于测试的爬取得到的真实数据集，每行是一个独立的语段。
+- feat(chp6/train.txt): 增加用于train_elmo.py测试的raw_data.txt单词分割后的数据集，每行是一个独立的语段，每个单词用空格分隔。
 - feat(chp6/word_segment.py): 增加用于对爬取得到的真实数据集进行单词分割函数代码
+
+## 篇末语
+
+如果本仓库对你有帮助的话，欢迎Fork和star，后续将持续更新
