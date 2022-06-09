@@ -19,8 +19,8 @@
 
 ### chp4
 
-- fix(chp4/lstm_sent_polarity.py): 新版本pack_padded_sequence中lengths参数需放在cpu上，更改放置位置
-- fix(chp4/transformer_sent_polarity; utils.py):  修复使用GPU时“数据不在同一device”的错误
+- fix(chp4/lstm_sent_polarity.py; lstm_polarity.py): 新版本pack_padded_sequence中lengths参数要求放在cpu上，更改了放置位置
+- fix(chp4/transformer_sent_polarity; transformer_polarity; utils.py):  修复使用GPU时“数据不在同一device”的错误
 
 ## 增加
 
@@ -29,6 +29,10 @@
 - feat(chp6/raw_data.txt): 增加用于测试的爬取得到的真实数据集，每行是一个独立的语段。
 - feat(chp6/train.txt): 增加用于train_elmo.py测试的raw_data.txt单词分割后的数据集，每行是一个独立的语段，每个单词用空格分隔。
 - feat(chp6/word_segment.py): 增加用于对爬取得到的真实数据集进行单词分割函数代码
+
+## 报错汇总
+
+运行代码可能出现的问题汇总于[这里](./error.md)
 
 ## 篇末语
 
